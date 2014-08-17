@@ -3,6 +3,9 @@ Design by Free Responsive Templates
 http://www.free-responsive-templates.com
 Released for free under a Creative Commons Attribution 3.0 Unported License (CC BY 3.0)
 */ 
+span.tab{
+    padding: 0 20px;
+}
 * {
 	margin:0;
 	padding:0;
@@ -130,6 +133,10 @@ header h1 a {
 
 .floatPic {
 	float:left;
+	margin:0 25px 10px 0;
+}
+.floatPicRight {
+	float:right;
 	margin:0 25px 10px 0;
 }
 footer {
@@ -420,8 +427,6 @@ ul#navlist {
 }
 img {
 	max-width: 100%;
-	height: auto;
-	width: auto;
 }
 
 /*--------------------------------------------------------------------------------------------*/
