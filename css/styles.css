@@ -3,6 +3,7 @@ Design by Free Responsive Templates
 http://www.free-responsive-templates.com
 Released for free under a Creative Commons Attribution 3.0 Unported License (CC BY 3.0)
 */ 
+
 span.tab{
     padding: 0 20px;
 }
@@ -13,8 +14,9 @@ span.tab{
 body  {
 	font-family: 'Gentium Basic', serif;
 	font-size: 16px;
-	background: url(../images/siteBackground.jpg) repeat;
-	color: #777777;
+	/*background: url(../images/siteBackground.jpg) repeat;*/
+	background-color: #72C6E7;
+	color: #555555;
 	text-shadow: 0px 0px, 1px 1px #ffffff;
 }
 a {
@@ -31,6 +33,13 @@ h2 {
 .container { 
 	width: 960px;
 	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #F0F0F0;
+	/* this was the nice grey color based on the orginal bg: 646666 another nice grey: 707070*/
+	border-left: 8px solid #173D4D;
+	border-right: 8px solid #173D4D;
+
 } 
 header h1 {
 	float:left;
