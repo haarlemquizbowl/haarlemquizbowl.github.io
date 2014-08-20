@@ -94,7 +94,32 @@ header h1 a {
 	text-transform:uppercase;
 	font-weight:bold;
 	text-decoration:none;
-	float:right;
+}
+.prettyLinks p {
+	margin-bottom: 10px;
+}
+
+.prettyLinks p a {
+	background:#18bbff;
+	text-shadow:none;
+	color:#ffffff;
+	border-radius:5px;
+    box-shadow: 0 3px #0695d1;
+	padding:2px 20px;
+	margin-right:15px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.prettyLinks p a:hover {
+	background:#0695d1;
+	text-shadow:none;
+	color:#ffffff;
+	border-radius:5px;
+    box-shadow: 0 3px #007fb4;
+	padding:2px 20px;
+	margin-right:15px;
+	font-weight:bold;
+	text-decoration:none;
 }
 .sidebar1 {
 	float: right; 
